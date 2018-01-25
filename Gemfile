@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5.2'
-gem ruby '2.3.4'
+gem 'ruby '2.3.4'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -39,7 +39,7 @@ end
 group :development do
   # Use sqlite3 as the database for Active Record
   gem 'pg'
-  gem ruby '2.3.4'
+  gem 'ruby '2.3.4'
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 
@@ -49,7 +49,7 @@ end
 
 group :production do
   gem 'pg'
-  gem ruby '2.3.4'
+  gem 'ruby '2.3.4'
   gem rails_12factor
 end  
 
